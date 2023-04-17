@@ -16,7 +16,7 @@ public class Main {
     }
 
     public static void showMenu() throws IOException{
-        System.out.println("1. Añadir\n2.Mostrar medalleria\n3.Mostrar total de medallas\n4.Mostrar paises\n5.Salir\n");
+        System.out.println("1.Añadir pais\n2.Mostrar medalleria\n3.Mostrar total de medallas\n4.Mostrar paises\n5.Salir\n");
         int option = Integer.parseInt(scanner.nextLine());
         handleOption(option);
     }

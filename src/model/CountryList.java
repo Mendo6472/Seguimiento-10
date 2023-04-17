@@ -25,7 +25,7 @@ public class CountryList{
         int pos = -1;
         boolean found = false;
         for(int i = 0; i < countries.size() && !found; i++){
-            if(countries.get(i).getName().equals(name)){
+            if(countries.get(i).getName().toLowerCase().equals(name.toLowerCase())){
                 pos = i;
                 found = true;
             }
